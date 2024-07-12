@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+body{
+    background-color: greenyellow;
+}
+span#span{
+    color: green;
+}
+a{
+    color: green;
+}
+a:hover{
+    background-color: darkgrey;
+}
+
+
+/*
+    Cabeça
+*/
+header#cabeçalho{
+    background-image: linear-gradient(to top, rgb(0, 77, 0), rgb(0, 167, 0));
+    height: 185px;
+    width: 1305px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    display: inline-block;
+}
+h1#titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+p#logo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+
+}
+nav#navegação{
+    height: 30px;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    right: 0px;
+}
+
+a#menu{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+/*
+    Corpo
+*/
+
+main#conteudo{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 185px;
+    text-align: justify;
+}
+h1{
+    font-family: 'idroid';
+    text-align: center;
+    font-size: 40px;
+    text-indent: 15px;
+    color: green;
+
+}
+h2{
+    font-family: 'idroid';
+    text-indent: 5px;
+    color: green;
+    background-image: linear-gradient(to right, rgba(27, 253, 27, 0.589), white);
+    border-radius: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+p#texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-indent: 20px;
+}
+p#imagens{
+    text-align: center;
+}
+p#video{
+    text-align: center;
+    background-color: rgb(0, 82, 0);
+}
+iframe#video2{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+aside#extra{
+    background-color: rgba(84, 238, 84, 0.596);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
+}
+p#qam{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    text-indent: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+ul{
+    list-style-image: url('pacote-projeto-d010/imagens/ok.png');
+    column-count: 2;
+}
+
+/*
+    Footer
+*/
+
+p#criador{
+    background-color: green;
+    color: white;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    text-align: center;
+    font-style: italic;
+
+}
